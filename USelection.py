@@ -6,8 +6,8 @@ import seaborn as sns
 pd.set_option('display.width', 500)
 pd.set_option('display.max_columns', 12)
 
-data = pd.read_csv('E:/Besha/belajar/pandas exercise/exercise 13/president_county_candidate.csv')
-datausa = pd.read_csv('E:/Besha/belajar/pandas exercise/exercise 13/world_country_and_usa_states_latitude_and_longitude_values.csv')
+data = pd.read_csv('E:/.../president_county_candidate.csv')
+datausa = pd.read_csv('E:/.../world_country_and_usa_states_latitude_and_longitude_values.csv')
 
 print(data.info())
 print(data.head())
